@@ -21,7 +21,7 @@ jobs:
         with:
           go-version-file: go.mod
       - name: GoReleaser
-        uses: goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29 # v7
+        uses: SISL-UIC/goreleaser-action@40a1d23610549dc39796036f45d7389f47ca621f # v7
         with:
           version: '~> v2'
           args: release --clean
